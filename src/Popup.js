@@ -6,7 +6,7 @@ export let status = "";
 export default function Popup({ title, clearLocalStorage }) {
   status = title;
   return (
-    <dialog className="popup w-3/4 p-8">
+    <dialog className="popup w-full sm:w-3/4 p-8">
       <p
         className={`text-2xl md:text-4xl text-center font-bold ${
           title === ageWrrong || title === phoneWrrong
