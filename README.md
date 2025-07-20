@@ -1,4 +1,22 @@
-# Simple Loan Request Form
+# Loan Request Form
+
+## Demo
+
+[View Live Demo](https://loan-request-form.vercel.app/)
+
+![Project Screenshot](public/screenshot.png)
+
+> To run the project locally:
+>
+> 1. Install dependencies:
+>    ```bash
+>    npm install
+>    ```
+> 2. Start the development server:
+>    ```bash
+>    npm start
+>    ```
+> 3. Open your browser at [http://localhost:3000](http://localhost:3000)
 
 This is a simple React web application that allows users to request a loan by filling out a form. The app collects basic information such as name, phone number, age, employment status, and salary range. It provides instant feedback if the information is invalid and confirms successful submission.
 
