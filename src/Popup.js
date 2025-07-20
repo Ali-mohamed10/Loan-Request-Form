@@ -8,7 +8,7 @@ export default function Popup({ title, clearLocalStorage }) {
   return (
     <dialog className="popup w-3/4 p-8">
       <p
-        className={`text-4xl text-center font-bold ${
+        className={`text-2xl md:text-4xl text-center font-bold ${
           title === ageWrrong || title === phoneWrrong
             ? "text-red-500"
             : "text-green-700"
